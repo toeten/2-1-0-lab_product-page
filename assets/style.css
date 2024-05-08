@@ -1,0 +1,98 @@
+html {
+  background-color: lightgrey;
+}
+.header-container {
+  background-color: aqua;
+  position:sticky;
+}
+
+.icon-image {
+  display: flex;
+  justify-content: left;
+  width: 100px;
+}
+.icon-image:hover {
+  transform: translateY(-5px);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content:end;
+  position: sticky;
+  padding-bottom: 50px;
+}
+
+.navitems {
+  color: black;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  font-weight: 500;
+  gap: 1rem;
+}
+
+.description-header {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-entering {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.email-button {
+  background-color: gold;
+  border: 3px;
+  padding: 5px;
+  font-family: sans-serif ;
+  font-weight: bolder;
+}
+
+.email-button:hover {
+  background-color: coral;
+}
+
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  color:darkorange;
+  padding-right: 20px;
+}
+
+.promise-container {
+  background-color: brown;
+}
+
+.promises {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+}
+
+.trombone-prices {
+  background-color: aqua;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
