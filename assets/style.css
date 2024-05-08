@@ -1,8 +1,34 @@
 html {
   background-color: lightgrey;
 }
+
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navitems {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  .icon {
+    display:none !important
+  } 
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+.brand {
+  display:flex;
+  align-items: center;
+}
+
 .header-container {
-  background-color: aqua;
   position:sticky;
 }
 
@@ -31,6 +57,15 @@ html {
   font-family: sans-serif;
   font-weight: 500;
   gap: 1rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .description-header {
@@ -74,9 +109,9 @@ html {
   padding-right: 20px;
 }
 
-.promise-container {
+/* .promise-container {
   background-color: brown;
-}
+} */
 
 .promises {
   padding-top: 100px;
@@ -89,10 +124,44 @@ html {
 }
 
 .trombone-prices {
-  background-color: aqua;
   font-family: sans-serif;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  border: 2px black solid;
+  gap: 1rem;
+}
+.item-butt {
+  background-color: gold;
+  border: none;
+  padding: 5px;
+}
+.item-butt:hover {
+  background-color: coral;
+}
+
+.trombone-cat {
+  background-color: darkgray;
+  padding: 50px;
+}
+
+
+.footer {
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.foot-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
